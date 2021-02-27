@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { AngularFireModule } from '@angular/fire';
+import { AngularFirestoreModule } from '@angular/fire/firestore';
 import { environment } from '../environments/environment';
 
 import { BrowserModule } from '@angular/platform-browser';
@@ -16,6 +17,7 @@ import { LoginComponent } from './login/login.component';
     BrowserModule, 
     AngularFireModule.initializeApp(environment.firebase),
     FormsModule ,
+    AngularFirestoreModule
     ],
   declarations: [ 
     AppComponent, ToolbarComponent, BookMenuComponent, DragonComponent, LoginComponent,  
