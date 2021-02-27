@@ -14,7 +14,8 @@ import { LoginComponent } from './login/login.component';
 @NgModule({
   imports:      [ 
     BrowserModule, 
-    FormsModule 
+    AngularFireModule.initializeApp(environment.firebase),
+    FormsModule ,
     ],
   declarations: [ 
     AppComponent, ToolbarComponent, BookMenuComponent, DragonComponent, LoginComponent,  
