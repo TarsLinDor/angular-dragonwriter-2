@@ -1,3 +1,17 @@
+app-login{
+  position: absolute;
+  z-index: 2;
+  top: 0%;
+  bottom: 0%;
+  left: 0%;
+  right: 0%;
+  grid-template-columns: auto auto;
+  grid-template-rows: 20% auto 20%;
+  background-color: #607B8D;
+  opacity: 1;
+  border-radius: 5px;
+}
+
 app-book-menu {
   display: grid;
   position: absolute;
@@ -15,7 +29,7 @@ app-dragon {
   top: 0px;
   bottom: 0px;
   left: 0px;
-  right: 300px;
+  right: 0px;
   display: grid;
   grid-template-columns: 50% auto 40px;
   grid-template-rows: 100%;
