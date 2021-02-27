@@ -1,0 +1,6 @@
+app-toolbar {
+  margin: 0px;
+  display: grid;
+  grid-template-rows: 35px auto 35px;
+  grid-column: 3 / span 1;
+}
