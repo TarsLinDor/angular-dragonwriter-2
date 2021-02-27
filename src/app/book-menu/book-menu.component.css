@@ -140,3 +140,20 @@
       display: grid;
       grid-template-columns: auto 20px;
     }
+
+    
+.circle {
+  background-color: inherit;
+  color: black;
+  border-radius: 50%;
+  border: none;
+  outline: none;
+  font-size: 100%;
+  width: 35px;
+  height: 35px;
+  margin: 0px 5px 5px 5px;
+  cursor: pointer;
+}
+.circle:hover {
+  background-color: #C6B9B0;
+}
