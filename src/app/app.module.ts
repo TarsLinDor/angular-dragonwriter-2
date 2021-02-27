@@ -6,13 +6,14 @@ import { ToolbarComponent } from './toolbar/toolbar.component';
 import { BookMenuComponent } from './book-menu/book-menu.component';
 import { DragonComponent } from './dragon/dragon.component';
 
+
 @NgModule({
   imports:      [ 
     BrowserModule, 
     FormsModule 
     ],
   declarations: [ 
-    AppComponent, ToolbarComponent, BookMenuComponent, DragonComponent, 
+    AppComponent, ToolbarComponent, BookMenuComponent, DragonComponent,  
     ],
   bootstrap:    [ 
     AppComponent 
