@@ -5,6 +5,7 @@ import { AppComponent } from './app.component';
 import { ToolbarComponent } from './toolbar/toolbar.component';
 import { BookMenuComponent } from './book-menu/book-menu.component';
 import { DragonComponent } from './dragon/dragon.component';
+import { LoginComponent } from './login/login.component';
 
 
 @NgModule({
@@ -13,7 +14,7 @@ import { DragonComponent } from './dragon/dragon.component';
     FormsModule 
     ],
   declarations: [ 
-    AppComponent, ToolbarComponent, BookMenuComponent, DragonComponent,  
+    AppComponent, ToolbarComponent, BookMenuComponent, DragonComponent, LoginComponent,  
     ],
   bootstrap:    [ 
     AppComponent 
